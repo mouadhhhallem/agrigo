@@ -34,15 +34,14 @@ public class MainConnection {
                 "abcd",
                 "Ariana"
         );
-        User u3 = new User(
-                "manai",
-                "amal",
-                "manaiamal@gmail.com",
-                "USER",
-                65459678,
-                "abcd",
-                "Ariana"
-        );
+User u3 = new User("amal",
+        "amal",
+        "amalamal@gmail.com",
+        "USER",
+        55668799,
+        "amal@1",
+        "Ariana"
+);
 
         // 4️⃣ Ajouter users
       //  su.ajouter(u1);
@@ -78,6 +77,8 @@ public class MainConnection {
         }
 
         // 9️⃣ Test DELETE (⚠️ change id)
-        su.supprimer(4);
+        su.supprimer(1);
+        su.supprimer(3);
+        su.supprimer(8);
     }
 }
