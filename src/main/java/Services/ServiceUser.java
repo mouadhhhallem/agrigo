@@ -31,7 +31,7 @@ public class ServiceUser {
             ps.setString(7, user.getAdresse_user());
 
             ps.executeUpdate();
-            System.out.println("User added!");
+            System.out.println("User successfully added !");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
