@@ -36,7 +36,6 @@ public class ServiceUser {
             throw new RuntimeException(e);
         }
     }
-
     // ================== AUTH ==================
     public User authenticate(String email, String password) {
         String query = "SELECT * FROM `user` WHERE `email_user`=? AND `password`=?";
